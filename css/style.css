@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #FCB804;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /**centra el logo con los menus**/
+    padding: .625rem 1.5rem;
+}
+
+header div img{
+    width: 4.6875rem;
+    border-radius: 50%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 6.25rem;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 1.25rem; /**separación entre si**/
+}
+
+.navbar li:hover{
+    text-shadow: 1px 1px 10px #FCB804ed;
+}
+
+
+main h1{
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*pagina de inicio**/
+
+.seccion-principal{
+    background-image: url("../assets/img/auto 1.jpg");
+    background-repeat: no-repeat;
+    background: size 6.25rem;;
+    border-bottom: 1.875rem solid #FCB804;
+    height: 100vh;
+}
+.seccion-principal h2{
+    color: white;
+}
+.seccion-secundaria h1{
+    background-color: #FFFFFF;
+    width:100%;
+    height: 15.625rem;
+    text-align: center;
+}
+
+
+/*pagina de galeria**/
+
+.container-cards{
+    display: flex;  /*para que las cards se pongan una al lado de la otra**/
+    width: 100%; 
+    height: 25rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cards{
+    width: 20rem;
+    height: 18.75rem;
+    border: 1px solid rgb(171, 170, 170);
+    border-radius: .625rem;
+    overflow: hidden; /* se redondea la punta de la imagen**/
+    box-shadow: 2px 2px 15px rgb(197, 196, 196);/* es la sombra que trabaja sobre la caja**/
+    margin: 20px;
+}
+.cards{
+    width: 200px; /* el recuadro toma el tamaño de la imagen**/
+}
+
+/*
+.cards-1{
+}                trabaja con cada uno de los elementos por separado
+.cards-2{    
+}                
+
+
+/*pagina contactos**/
+
+.letra h1{
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.grid-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%; /**grid puede declarar solo 12 columnas**/
+    padding: 10px;
+    background-color: black;
+    grid-template-areas: 
+    "grid-container"
+    "grid-formulario"
+    ;
+}
+main{
+    grid-area: main;
+}
+
+.grid-datos{
+    color: #FFFFFF;
+}
+
+
+
+
+/*pagina somos**/
+
+.presentación{
+    background-image: url(../assets/img/chica-manejando.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+.presentación div{
+    color: white;
+    text-align: right;
+    padding: 2.5rem;
+}
+
+
+/*pagina Servicios**/
+
+.conjunto-cajas{
+    display: flex;  /*para que las cards se pongan una al lado de la otra**/
+    width: 100%; 
+    height: 25rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cajas{
+    width: 30%;
+    height: 28.125rem;
+    border: 1px solid rgb(171, 170, 170);
+    border-radius: .625rem;
+    overflow: hidden; /* se redondea la punta de la imagen**/
+    box-shadow: 2px 2px 15px rgb(197, 196, 196);/* es la sombra que trabaja sobre la caja**/
+    margin: 20px;
+}
