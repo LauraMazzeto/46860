@@ -59,7 +59,7 @@ footer h3{
     color: #FCB804;
 }
 footer .gap-40{
-    gap: 40px;
+    gap: 30px;
 }
 /*pagina de inicio**/
 
@@ -81,7 +81,7 @@ footer .gap-40{
     text-align: center;
     padding: none;
 }
-.seccion-secundaria {
+.seccion-secundaria{
     padding: 0px;
     display: flex;
     align-content: center;
@@ -158,10 +158,10 @@ form fieldset{
     width: 100%;
 }
 form fieldset input{
-   background-color: black;
-   color: white;
-   border: 1px solid white;
-   min-height: 40px ;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    min-height: 40px ;
 }
 
 
